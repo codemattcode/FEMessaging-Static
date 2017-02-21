@@ -1,5 +1,5 @@
 .blues
-  background: linear-gradient( lighten($blues, 34, .1), lighten($blues, 34) ), url("../../img/photos/man-sunburst.jpg") no-repeat fixed -2000px -2000px 
+  background: linear-gradient( rgba($blues, .19), rgba($blues, .1) ), url("../../img/photos/man-sunburst.jpg") no-repeat fixed -2000px -2000px 
 .push-down-compensation
   margin-top: 250px
   +break(500px)
@@ -23,6 +23,17 @@ span.blues__title--blues
     line-height: .8
     font-size: 1.8em
 // .blues__txt
-.blues__txt-hero
-
+.blues__txt-offkey
+  line-height: 1
+  +break(1040px)
+    line-height: 1.8
+  +break(768px)
+    line-height: 1.3
 .blues__txt-one
+  font-size: 1.5em
+  font-weight: $bold
+  +break(1040px)
+    line-height: 1.3
+  +break(768px)
+    line-height: 1.7
+    font-size: 1.4em
