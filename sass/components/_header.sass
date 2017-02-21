@@ -1,12 +1,20 @@
 header
-  width: 100%
+  width: 400px
+  +break(768px)
+    width: auto
   margin: 0 auto
-
-.brand-logo__img
-  max-width: 10%
-nav ul
   text-align: center
-  margin-top: 40px
-  li
-    float: left
-    text-align: center
+img.brand-logo__img
+  max-width: 100px
+  margin-top: -30px
+  +break(768px)
+    margin-top: -20px
+h1.brand-name__title
+  // padding: 15px 0 10px 0
+  font-family: $play
+  font-size: 2em
+  font-weight: $bold
+  +break(768px)
+    line-height: 1
+p.brand-strapline__txt
+  font-size: inherit
