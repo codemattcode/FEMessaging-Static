@@ -455,6 +455,20 @@ h3.solution__title {
 span.solution__title--bold {
   color: #b80082; }
 
+p.solution__txt--help {
+  margin-top: 20px;
+  font-size: 2em; }
+  @media screen and (max-width: 768px) {
+    p.solution__txt--help {
+      line-height: 1.2;
+      margin-bottom: 20px; } }
+
+span.solution__txt--number {
+  font-weight: 900; }
+
+p.solution__txt--cta {
+  margin-top: 10px; }
+
 .playbook-grp {
   text-align: center; }
 
@@ -522,6 +536,28 @@ h2.messaging__title {
 h3.messaging-grp {
   font-size: 1em; }
 
+.downloader-get-in-touch__txt {
+  font-family: "Helvetica Neue", sans-serif;
+  font-weight: 100;
+  font-size: 1.8em;
+  text-transform: uppercase;
+  line-height: 1;
+  margin-bottom: 20px; }
+  @media screen and (max-width: 768px) {
+    .downloader-get-in-touch__txt {
+      line-height: 1.2;
+      font-size: 1.8em;
+      margin-bottom: 5px; } }
+
+.downloader-get-in-touch__txt--yes {
+  font-size: 4em;
+  font-weight: 900;
+  margin-left: -5px;
+  line-height: 0.8; }
+  @media screen and (max-width: 768px) {
+    .downloader-get-in-touch__txt--yes {
+      font-size: 1.8em; } }
+
 #size {
   position: absolute;
   top: 0;
@@ -559,3 +595,15 @@ h2, h3 {
     h2, h3 {
       line-height: 1.2;
       font-size: 1.8em; } }
+
+a:link, a:visited, .bold {
+  color: #b80082; }
+
+.card-download-playbook {
+  text-align: center; }
+  @media screen and (max-width: 768px) {
+    .card-download-playbook {
+      margin-top: 20px; } }
+
+.contact__cta {
+  font-size: 1.2em; }
