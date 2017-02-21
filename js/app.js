@@ -3,6 +3,9 @@
 // JQUERY
 
 $(document).ready(function(){
+    $( window ).on( "load", function() {
+      $(".brand-logo__img").removeClass("img.brand-logo__img--remove-load-padding")
+    }),
 
     $(window).scroll(function() {
         var o = $(window).scrollTop();
