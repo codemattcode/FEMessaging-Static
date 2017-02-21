@@ -448,8 +448,19 @@ html {
   .wrapper {
     width: 90%;
     max-width: 1175px; } }
+header {
+  width: 100%;
+  margin: 0 auto; }
+
 .brand-logo__img {
   max-width: 10%; }
+
+nav ul {
+  text-align: center;
+  margin-top: 40px; }
+  nav ul li {
+    float: left;
+    text-align: center; }
 
 #size {
   position: absolute;

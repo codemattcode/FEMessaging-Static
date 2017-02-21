@@ -121,7 +121,7 @@ gulp.task('browser-sync', function() {
 
 // watch
 gulp.task('watch', function() {
-  gulp.watch('sass/*.sass', ['sass']);
+  gulp.watch('sass/**/*.sass', ['sass']);
   gulp.watch('js/*.js', ['js']);
   gulp.watch('*.html', ['html']);
 });
