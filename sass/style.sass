@@ -1,6 +1,7 @@
 @import style-baselines
 @import components/nav
 @import components/header
+@import components/section
 @import components/blues
 
 // LET THERE BE JUSTICE
@@ -29,7 +30,7 @@ html
 body
   font-size: 2em // 16px
   font-family: $reset-font
-  line-height: 1.4
+  line-height: $reset-line-height
   margin: $reset-margin
   padding: $reset-padding
   background-color: $reset-body-bg  
@@ -37,3 +38,12 @@ body
 .wrapper
   max-width: 800px
   width: 90%
+h3
+  font-family: $play
+  font-weight: $bold
+  font-size: 3em
+  text-transform: uppercase
+  line-height: 1.2
+  +break(768px)
+    line-height: 1.2
+    font-size: 1.8em
