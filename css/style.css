@@ -379,7 +379,7 @@ p.brand-strapline__txt {
   line-height: 0.8; }
 
 section {
-  padding: 100px 0; }
+  padding: 80px 0; }
   @media screen and (max-width: 768px) {
     section {
       padding: 30px 0; } }
@@ -392,6 +392,26 @@ section {
   @media screen and (max-width: 500px) {
     .push-down-compensation {
       margin-top: 220px; } }
+
+h3.solution__title {
+  font-size: 1.8em; }
+
+h2.playbook__title {
+  font-size: 1.8em;
+  text-transform: uppercase; }
+
+h3.playbook-grp {
+  font-size: 1em; }
+
+h3.overwhelmed__title {
+  font-size: 1.8em; }
+
+h2.messaging__title {
+  font-size: 1.8em;
+  text-transform: uppercase; }
+
+h3.messaging-grp {
+  font-size: 1em; }
 
 #size {
   position: absolute;
