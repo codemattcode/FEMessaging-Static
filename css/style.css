@@ -372,12 +372,18 @@ h1.brand-name__title {
 
 h1.brand-name__title--scroll-up {
   margin-top: -50px; }
+  @media screen and (max-width: 768px) {
+    h1.brand-name__title--scroll-up {
+      margin-top: -30px; } }
 
 h1.brand-name__title--scroll-down {
   margin-top: 0px; }
 
 p.brand-strapline__txt {
   line-height: 0.8; }
+
+.turn-purple {
+  color: #b80082; }
 
 section {
   padding: 80px 0; }
@@ -404,7 +410,8 @@ section {
   @media screen and (max-width: 768px) {
     .blues__title {
       line-height: 1.2;
-      font-size: 1.8em; } }
+      font-size: 1.8em;
+      margin-bottom: 5px; } }
 
 span.blues__title--blues {
   font-size: 4em;
@@ -416,13 +423,15 @@ span.blues__title--blues {
       font-size: 1.8em; } }
 
 .blues__txt-offkey {
-  line-height: 1; }
-  @media screen and (max-width: 1040px) {
+  line-height: 1;
+  color: #b80082;
+  font-size: 1.3em; }
+  @media screen and (max-width: 1000px) {
     .blues__txt-offkey {
-      line-height: 1.8; } }
+      line-height: 1; } }
   @media screen and (max-width: 768px) {
     .blues__txt-offkey {
-      line-height: 1.3; } }
+      line-height: 1; } }
 
 .blues__txt-one {
   font-size: 1.5em;
@@ -435,10 +444,16 @@ span.blues__title--blues {
       line-height: 1.7;
       font-size: 1.4em; } }
 
+span.off-key__title--bold {
+  color: #b80082; }
+
 h3.solution__title {
   font-size: 1.8em;
   font-weight: 100;
   margin-bottom: 20px; }
+
+span.solution__title--bold {
+  color: #b80082; }
 
 .playbook-grp {
   text-align: center; }
@@ -457,10 +472,30 @@ h2.playbook__title {
   text-transform: uppercase;
   font-weight: 100; }
 
+span.playbook__title--bold {
+  color: #b80082; }
+
 h3.overwhelmed__title {
-  font-size: 1.8em;
+  font-family: "Helvetica Neue", sans-serif;
   font-weight: 100;
+  font-size: 1.8em;
+  text-transform: uppercase;
+  line-height: 0.8;
   margin-bottom: 20px; }
+  @media screen and (max-width: 768px) {
+    h3.overwhelmed__title {
+      line-height: 1.2;
+      font-size: 1.8em;
+      margin-bottom: 5px; } }
+
+span.overwhelmed__title--need {
+  font-size: 4em;
+  font-weight: 900;
+  margin-left: -5px; }
+  @media screen and (max-width: 768px) {
+    span.overwhelmed__title--need {
+      line-height: 0.8;
+      font-size: 1.8em; } }
 
 .messaging-grp {
   text-align: center; }

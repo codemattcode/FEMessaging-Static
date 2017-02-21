@@ -11,6 +11,9 @@ $(document).ready(function(){
   o <= 100 ? $(".brand-logo__img").addClass("scroll") : $(".brand-logo__img").removeClass("scroll")
 
   o >= 150 ? $(".brand-name__title").addClass("brand-name__title--scroll-up") : $(".brand-name__title").removeClass(".brand-name__title--scroll-down")
+
+  o <= 100 ? $(".brand-strapline__txt").removeClass("turn-purple") : $(".brand-strapline__txt").addClass("turn-purple")  
+  
     })
 });
 
