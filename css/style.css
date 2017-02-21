@@ -386,6 +386,7 @@ section {
       padding: 30px 0; } }
 
 .blues {
+  background: url("../../img/photos/man-sunburst.jpg") no-repeat fixed -2000px -2000px;
   background-color: #bee8fa; }
 
 .push-down-compensation {
@@ -394,8 +395,21 @@ section {
     .push-down-compensation {
       margin-top: 220px; } }
 
+.blues__title {
+  font-family: "Helvetica Neue", sans-serif;
+  font-weight: 900;
+  font-size: 5em;
+  text-transform: uppercase;
+  line-height: 1; }
+  @media screen and (max-width: 768px) {
+    .blues__title {
+      line-height: 1.2;
+      font-size: 1.8em; } }
+
 h3.solution__title {
-  font-size: 1.8em; }
+  font-size: 1.8em;
+  font-weight: 100;
+  margin-bottom: 20px; }
 
 .playbook-grp {
   text-align: center; }
@@ -415,7 +429,9 @@ h2.playbook__title {
   font-weight: 100; }
 
 h3.overwhelmed__title {
-  font-size: 1.8em; }
+  font-size: 1.8em;
+  font-weight: 100;
+  margin-bottom: 20px; }
 
 .messaging-grp {
   text-align: center; }
