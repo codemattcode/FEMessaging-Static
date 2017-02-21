@@ -350,17 +350,16 @@ header {
 
 img.brand-logo__img {
   max-width: 100px;
-  margin-top: -30px;
-  margin-bottom: 30px; }
+  margin-top: -30px; }
   @media screen and (max-width: 768px) {
     img.brand-logo__img {
       margin-top: -20px; } }
 
-img.brand-logo__img--remove-padding {
-  margin-bottom: -30px; }
-
 img.brand-logo__img--hide {
   display: none; }
+
+img.scroll {
+  margin-bottom: 30px; }
 
 h1.brand-name__title {
   font-family: "Playfair", sans-serif;
