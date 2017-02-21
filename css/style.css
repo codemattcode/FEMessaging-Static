@@ -180,9 +180,6 @@ video, figure, figcaption, li {
   padding: 0;
   display: block; }
 
-li {
-  float: left; }
-
 strong {
   font-weight: bold; }
 
@@ -211,7 +208,7 @@ button, input, label, select, textarea {
   outline: 0; }
 
 ::selection {
-  background: yellow; }
+  background: purple; }
 
 img {
   max-width: 100%;
@@ -451,6 +448,9 @@ html {
   .wrapper {
     width: 90%;
     max-width: 1175px; } }
+.brand-logo__img {
+  max-width: 10%; }
+
 #size {
   position: absolute;
   top: 0;
@@ -465,23 +465,11 @@ html {
 
 html {
   font-size: 62.5%; }
-  @media screen and (max-width: 767px) and (min-width: 1px) {
-    html {
-      font-size: 90%; } }
-  @media screen and (max-width: 1099px) and (min-width: 768px) {
-    html {
-      font-size: 92.5%; } }
-  @media screen and (max-width: 1599px) and (min-width: 1100px) {
-    html {
-      font-size: 95%; } }
-  @media screen and (max-width: 10000px) and (min-width: 1600px) {
-    html {
-      font-size: 125%; } }
 
 body {
   font-size: 1.6em;
-  font-family: "Helvetica Neue", sans-serif, sans-serif;
+  font-family: "Lato", sans-serif, sans-serif;
   line-height: 0.8;
   margin: 0;
   padding: 0;
-  background-color: #fbfbfb; }
+  background-color: #fff; }
