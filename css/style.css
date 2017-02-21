@@ -1,5 +1,6 @@
 /* white */
 /* black */
+/* grey */
 /* gradients  */
 @import url(http://fonts.googleapis.com/css?family=Lato:900,700,400,400italic,300,100);
 @import url(http://fonts.googleapis.com/css?family=Roboto:900,300,100);
@@ -396,19 +397,47 @@ section {
 h3.solution__title {
   font-size: 1.8em; }
 
-h2.playbook__title {
-  font-size: 1.8em;
-  text-transform: uppercase; }
+.playbook-grp {
+  text-align: center; }
+
+.icon {
+  padding: 30px; }
+  .icon img {
+    border-radius: 40px;
+    border: 10px solid #f8f7f5; }
 
 h3.playbook-grp {
   font-size: 1em; }
 
+h2.playbook__title {
+  font-size: 1.8em;
+  text-transform: uppercase;
+  font-weight: 100; }
+
 h3.overwhelmed__title {
   font-size: 1.8em; }
 
+.messaging-grp {
+  text-align: center; }
+
+.icon {
+  padding: 30px; }
+  .icon img {
+    border-radius: 40px;
+    border: 2px solid #f8f7f5; }
+
+.fixed-width-430 {
+  width: 430px;
+  margin: 0 auto;
+  text-align: center; }
+  @media screen and (max-width: 500px) {
+    .fixed-width-430 {
+      width: auto; } }
+
 h2.messaging__title {
   font-size: 1.8em;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  font-weight: 100; }
 
 h3.messaging-grp {
   font-size: 1em; }
