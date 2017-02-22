@@ -397,7 +397,7 @@ section {
       padding: 30px 0; } }
 
 .blues {
-  background: linear-gradient(rgba(29, 175, 237, 0.19), rgba(29, 175, 237, 0.1)), url("../../img/photos/man-sunburst.jpg") no-repeat fixed -2000px -2000px; }
+  background: linear-gradient(rgba(29, 175, 237, 0.19), rgba(29, 175, 237, 0.1)), url("../../img/photos/man-sunburst.jpg") no-repeat fixed -10px -50px; }
 
 .push-down-compensation {
   margin-top: 250px; }
