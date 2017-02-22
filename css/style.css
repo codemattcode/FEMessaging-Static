@@ -1,6 +1,7 @@
+/* grey */
+/* ************************************ */
 /* white */
 /* black */
-/* grey */
 /* gradients  */
 @import url(http://fonts.googleapis.com/css?family=Lato:900,700,400,400italic,300,100);
 @import url(http://fonts.googleapis.com/css?family=Roboto:900,300,100);
@@ -79,7 +80,7 @@ button, input, label, select, textarea {
   outline: 0; }
 
 ::selection {
-  background: purple; }
+  background: #e70068; }
 
 img {
   max-width: 100%;
@@ -341,7 +342,7 @@ ul {
       ul a {
         font-size: 0.7em; } }
   ul a:link, ul a:visited {
-    color: #333333; }
+    color: #282828; }
 
 header {
   width: 400px;
@@ -367,7 +368,8 @@ img.scroll {
 h1.brand-name__title {
   font-family: "Playfair", sans-serif;
   font-size: 2em;
-  font-weight: 900; }
+  font-weight: 900;
+  color: #58595b; }
   @media screen and (max-width: 768px) {
     h1.brand-name__title {
       line-height: 1s; } }
@@ -382,10 +384,11 @@ h1.brand-name__title--scroll-down {
   margin-top: 0px; }
 
 p.brand-strapline__txt {
-  line-height: 0.8; }
+  line-height: 0.8;
+  color: #e70068; }
 
 .turn-purple {
-  color: #b80082; }
+  color: #e70068; }
 
 section {
   padding: 80px 0; }
@@ -424,9 +427,12 @@ span.blues__title--blues {
       line-height: 0.8;
       font-size: 1.8em; } }
 
+.blues__txt {
+  color: #58595b; }
+
 .blues__txt-offkey {
   line-height: 1;
-  color: #b80082;
+  color: #e70068;
   font-size: 1.3em; }
   @media screen and (max-width: 1000px) {
     .blues__txt-offkey {
@@ -437,7 +443,8 @@ span.blues__title--blues {
 
 .blues__txt-one {
   font-size: 1.5em;
-  font-weight: 900; }
+  font-weight: 900;
+  color: #58595b; }
   @media screen and (max-width: 1040px) {
     .blues__txt-one {
       line-height: 1.3; } }
@@ -450,7 +457,10 @@ h3.off-key__title {
   margin: 10px 0; }
 
 span.off-key__title--bold {
-  color: #b80082; }
+  color: #e70068; }
+
+.off-key__txt {
+  color: #58595b; }
 
 p.off-key__txt--what, .off-key__txt--22 {
   font-family: "Helvetica Neue", sans-serif;
@@ -474,7 +484,10 @@ h3.solution__title {
       margin-top: -50px; } }
 
 span.solution__title--bold {
-  color: #b80082; }
+  color: #e70068; }
+
+.solution__txt {
+  color: #58595b; }
 
 p.solution__txt--help {
   margin-top: 20px;
@@ -493,6 +506,9 @@ p.solution__txt--cta {
 .playbook-grp {
   text-align: center; }
 
+.playbook__txt {
+  color: #58595b; }
+
 .icon {
   padding: 30px; }
   .icon img {
@@ -508,7 +524,7 @@ h2.playbook__title {
   font-weight: 100; }
 
 span.playbook__title--bold {
-  color: #b80082; }
+  color: #e70068; }
 
 h3.overwhelmed__title {
   font-family: "Helvetica Neue", sans-serif;
@@ -531,6 +547,26 @@ span.overwhelmed__title--need {
     span.overwhelmed__title--need {
       line-height: 0.8;
       font-size: 1.8em; } }
+
+.overwhelmed__txt {
+  color: #58595b; }
+
+p.overwhelmed__txt--list {
+  margin-top: 20px;
+  margin-left: 20px;
+  font-size: 1.1em;
+  line-height: 1.5; }
+  @media screen and (max-width: 768px) {
+    p.overwhelmed__txt--list {
+      margin-left: 5px; } }
+
+p.overwhelmed__txt--list:before {
+  content: "";
+  display: inline-block;
+  width: 10px;
+  height: 15px;
+  margin-right: 10px;
+  background: #333333; }
 
 .messaging-grp {
   text-align: center; }
@@ -556,6 +592,12 @@ h2.messaging__title {
 
 h3.messaging-grp {
   font-size: 1em; }
+
+.messaging-txt {
+  color: #58595b; }
+
+.downloader-txt {
+  color: #58595b; }
 
 .downloader-get-in-touch__txt {
   font-family: "Helvetica Neue", sans-serif;
@@ -611,14 +653,15 @@ h2, h3 {
   font-weight: 900;
   font-size: 3em;
   text-transform: uppercase;
-  line-height: 1.2; }
+  line-height: 1.2;
+  color: #58595b; }
   @media screen and (max-width: 768px) {
     h2, h3 {
       line-height: 1.2;
       font-size: 1.8em; } }
 
 a:link, a:visited, .bold {
-  color: #b80082; }
+  color: #e70068; }
 
 .card-download-playbook {
   text-align: center; }
