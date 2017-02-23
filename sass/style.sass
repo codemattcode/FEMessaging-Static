@@ -25,7 +25,7 @@ html
   // +break(10000px, 1600px)
   //   font-size: 125%
 body
-  font-size: 2em // 16px
+  font-size: 16px
   font-family: $reset-font
   line-height: $reset-line-height
   margin: $reset-margin
@@ -35,6 +35,12 @@ body
 .wrapper
   max-width: 800px
   width: 90%
+h1
+  font-family: $hand
+  font-size: 2em
+  color: $fem-title-grey
+  +break(768px)
+    line-height: 1
 h2, h3
   font-family: $robo
   font-weight: $bold
@@ -45,6 +51,11 @@ h2, h3
   +break(768px)
     line-height: 1.2
     font-size: 1.8em
+h3
+  font-size: 1.95em
+  +break(768px)
+    line-height: 1.2
+    font-size: 1.55em
 a:link, a:visited, .bold
   color: $fem-purple
 .card-download-playbook
