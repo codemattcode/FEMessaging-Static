@@ -3,9 +3,10 @@
 /* white */
 /* black */
 /* gradients  */
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,200i,300,300i,400,400i,600,600i,700,700i,900,900i");
+@import url("http://fonts.googleapis.com/css?family=Roboto:900,300,100");
+@import url("http://fonts.googleapis.com/css?family=Playfair+Display:400,700,900,400italic,700italic,900italic");
 @import url(http://fonts.googleapis.com/css?family=Lato:900,700,400,400italic,300,100);
-@import url(http://fonts.googleapis.com/css?family=Roboto:900,300,100);
-@import url(http://fonts.googleapis.com/css?family=Playfair+Display:400,700,900,400italic,700italic,900italic);
 @import url(https://fonts.googleapis.com/css?family=Droid+Serif:400,400italic,700,700italic);
 @import url(http://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic);
 @import url(http://fonts.googleapis.com/css?family=Alegreya:400italic,700italic,900italic,400,700,900);
@@ -406,11 +407,6 @@ section {
       margin-top: 220px; } }
 
 .blues__title {
-  font-family: "Helvetica Neue", sans-serif;
-  font-weight: 100;
-  font-size: 1.8em;
-  text-transform: uppercase;
-  line-height: 0.8;
   margin-bottom: 20px; }
   @media screen and (max-width: 768px) {
     .blues__title {
@@ -419,7 +415,6 @@ section {
       margin-bottom: 5px; } }
 
 span.blues__title--blues {
-  font-size: 4em;
   font-weight: 900;
   margin-left: -5px; }
   @media screen and (max-width: 768px) {
@@ -649,11 +644,11 @@ body {
   width: 90%; }
 
 h2, h3 {
-  font-family: "Playfair", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 900;
-  font-size: 3em;
+  font-size: 2.25em;
   text-transform: uppercase;
-  line-height: 1.2;
+  line-height: 1;
   color: #58595b; }
   @media screen and (max-width: 768px) {
     h2, h3 {
