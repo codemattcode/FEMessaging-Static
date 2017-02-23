@@ -528,9 +528,7 @@ span.overwhelmed__title--need {
 
 p.overwhelmed__txt--list {
   margin-top: 20px;
-  margin-left: 20px;
-  font-size: 1.1em;
-  line-height: 1.5; }
+  margin-left: 20px; }
   @media screen and (max-width: 768px) {
     p.overwhelmed__txt--list {
       margin-left: 5px; } }
