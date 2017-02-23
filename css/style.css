@@ -510,7 +510,6 @@ span.playbook__title--bold {
   color: #e70068; }
 
 h3.overwhelmed__title {
-  font-family: "Helvetica Neue", sans-serif;
   margin-bottom: 20px; }
   @media screen and (max-width: 768px) {
     h3.overwhelmed__title {
