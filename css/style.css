@@ -483,8 +483,7 @@ span.solution__title--bold {
   color: #58595b; }
 
 p.solution__txt--help {
-  margin-top: 20px;
-  font-size: 2em; }
+  margin-top: 20px; }
   @media screen and (max-width: 768px) {
     p.solution__txt--help {
       line-height: 1.2;
