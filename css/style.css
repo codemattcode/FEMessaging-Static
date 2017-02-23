@@ -595,26 +595,10 @@ h3.messaging-grp {
   color: #58595b; }
 
 .downloader-get-in-touch__txt {
-  font-family: "Helvetica Neue", sans-serif;
-  font-weight: 100;
-  font-size: 1.8em;
-  text-transform: uppercase;
-  line-height: 1;
   margin-bottom: 20px; }
   @media screen and (max-width: 768px) {
     .downloader-get-in-touch__txt {
-      line-height: 1.2;
-      font-size: 1.8em;
       margin-bottom: 5px; } }
-
-.downloader-get-in-touch__txt--yes {
-  font-size: 4em;
-  font-weight: 900;
-  margin-left: -5px;
-  line-height: 0.8; }
-  @media screen and (max-width: 768px) {
-    .downloader-get-in-touch__txt--yes {
-      font-size: 1.8em; } }
 
 #size {
   position: absolute;
