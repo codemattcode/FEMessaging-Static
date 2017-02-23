@@ -515,20 +515,12 @@ span.playbook__title--bold {
 
 h3.overwhelmed__title {
   font-family: "Helvetica Neue", sans-serif;
-  font-weight: 100;
-  font-size: 1.8em;
-  text-transform: uppercase;
-  line-height: 0.8;
   margin-bottom: 20px; }
   @media screen and (max-width: 768px) {
     h3.overwhelmed__title {
-      line-height: 1.2;
-      font-size: 1.8em;
       margin-bottom: 5px; } }
 
 span.overwhelmed__title--need {
-  font-size: 4em;
-  font-weight: 900;
   margin-left: -5px; }
   @media screen and (max-width: 768px) {
     span.overwhelmed__title--need {
