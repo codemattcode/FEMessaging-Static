@@ -458,11 +458,6 @@ span.off-key__title--bold {
   color: #58595b; }
 
 p.off-key__txt--what, .off-key__txt--22 {
-  font-family: "Helvetica Neue", sans-serif;
-  font-weight: 100;
-  font-size: 1.8em;
-  text-transform: uppercase;
-  line-height: 0.8;
   margin: 20px 0; }
   @media screen and (max-width: 768px) {
     p.off-key__txt--what, .off-key__txt--22 {
