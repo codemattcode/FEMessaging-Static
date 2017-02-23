@@ -559,7 +559,6 @@ p.overwhelmed__txt--list:before {
       width: auto; } }
 
 h2.messaging__title {
-  text-transform: uppercase;
   font-weight: 100; }
 
 h3.messaging-grp {
