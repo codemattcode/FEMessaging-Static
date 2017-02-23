@@ -486,7 +486,6 @@ p.solution__txt--help {
   margin-top: 20px; }
   @media screen and (max-width: 768px) {
     p.solution__txt--help {
-      line-height: 1.2;
       margin-bottom: 20px; } }
 
 span.solution__txt--number {
