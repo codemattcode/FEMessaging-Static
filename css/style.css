@@ -461,8 +461,6 @@ p.off-key__txt--what, .off-key__txt--22 {
   margin: 20px 0; }
   @media screen and (max-width: 768px) {
     p.off-key__txt--what, .off-key__txt--22 {
-      line-height: 1.2;
-      font-size: 1.8em;
       margin-bottom: 5px; } }
 
 h3.solution__title {
