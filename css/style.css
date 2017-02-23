@@ -522,10 +522,6 @@ h3.overwhelmed__title {
 
 span.overwhelmed__title--need {
   margin-left: -5px; }
-  @media screen and (max-width: 768px) {
-    span.overwhelmed__title--need {
-      line-height: 0.8;
-      font-size: 1.8em; } }
 
 .overwhelmed__txt {
   color: #58595b; }
