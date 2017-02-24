@@ -373,7 +373,7 @@ section {
       padding: 30px 0; } }
 
 .blues {
-  background: linear-gradient(rgba(29, 175, 237, 0.19), rgba(29, 175, 237, 0.1)), url("../../img/photos/man-sunburst.jpg") no-repeat fixed -10px -500px; }
+  background: linear-gradient(rgba(29, 175, 237, 0.25), rgba(29, 175, 237, 0.2)), url("../../img/photos/man-sunburst.jpg") no-repeat fixed -10px -500px; }
 
 .push-down-compensation {
   margin-top: 100px; }
@@ -427,6 +427,7 @@ h3.solution__title {
       line-height: 1.6; } }
 
 p.solution__txt--help {
+  font-family: "Roboto", sans-serif;
   letter-spacing: 1.1px;
   font-weight: 900;
   margin-top: 20px; }
@@ -439,6 +440,14 @@ p.solution__txt--cta {
 
 .solution__txt--link {
   color: white; }
+
+.solution__push-up {
+  display: block;
+  margin-top: 20px; }
+
+.solution__push-right {
+  display: block;
+  margin-right: 20px; }
 
 .playbook-grp {
   text-align: center; }
@@ -572,4 +581,16 @@ p {
       margin-top: 20px; } }
 
 .contact__cta {
-  font-size: 1.2em; }
+  display: block;
+  width: 150px;
+  text-align: center;
+  font-size: 1em;
+  border: 1px solid white;
+  padding: 10px;
+  border-radius: 3px;
+  margin-top: 30px;
+  margin-bottom: 5px; }
+  @media screen and (max-width: 850px) {
+    .contact__cta {
+      margin: 0 auto;
+      margin-top: 30px; } }
