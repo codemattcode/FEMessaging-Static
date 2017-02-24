@@ -1,9 +1,5 @@
 nav
   text-align: right
-.center-on-mobile
-  +break($breaker)
-    width: 100%
-    text-align: center
 ul
   display: inline-block
   padding-top: 10px
@@ -24,4 +20,8 @@ ul
     +break($breaker)
       font-size: .8em
   a:link, a:visited
+    font-family: $metro
     color: $fem-nav-text-grey
+    text-transform: uppercase
+    font-weight: 400
+    font-size: .8em

@@ -2,14 +2,9 @@
 @import 'index-page-partials'
 $wrap: 850px
 // LET THERE BE JUSTICE
-#size
-  position: absolute
-  top: 0
-  right: 3px
-  +meri(1.3, 100, 1, $notBlack)
-//
-$reset-font:          $robo, sans-serif
+$reset-font:          $source, sans-serif
 $reset-font-size:     62.5%
+$reset-font-weight:   300
 $reset-line-height:   1.625
 $reset-margin:        0 // 2.4rem golden ratio for descendants 
 $reset-padding:       0 // 4.8rem golden ratio for descendants
@@ -45,7 +40,6 @@ h2, h3
   font-family: $robo
   font-weight: $bold
   font-size: 2.25em
-  text-transform: uppercase
   line-height: 1
   color: $fem-title-grey
   +break($breaker)
@@ -54,10 +48,19 @@ h2, h3
 h3
   font-size: 1.95em
   +break($breaker)
-    line-height: 1.2
     font-size: 1.55em
 a:link, a:visited, .bold
-  color: $fem-purple
+  color: $fem-emphasis
+  font-weight: $reset-font-weight
+p
+  color: $fem-txt-grey
+  font-size: 1.375em
+  font-weight: $reset-font-weight
+.center-on-mobile
+  +break($breaker)
+    width: 100%
+    text-align: center
+// components 
 .card-download-playbook
   text-align: center
   +break($breaker)

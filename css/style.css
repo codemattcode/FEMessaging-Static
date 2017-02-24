@@ -6,6 +6,7 @@
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,200i,300,300i,400,400i,600,600i,700,700i,900,900i");
 @import url("http://fonts.googleapis.com/css?family=Roboto:900,300,100");
 @import url("https://fonts.googleapis.com/css?family=Just+Another+Hand");
+@import url("https://fonts.googleapis.com/css?family=Metrophobic");
 @import url("http://fonts.googleapis.com/css?family=Playfair+Display:400,700,900,400italic,700italic,900italic");
 @import url(http://fonts.googleapis.com/css?family=Lato:900,700,400,400italic,300,100);
 @import url(https://fonts.googleapis.com/css?family=Droid+Serif:400,400italic,700,700italic);
@@ -323,11 +324,6 @@ html {
 nav {
   text-align: right; }
 
-@media screen and (max-width: 850px) {
-  .center-on-mobile {
-    width: 100%;
-    text-align: center; } }
-
 ul {
   display: inline-block;
   padding-top: 10px; }
@@ -351,7 +347,11 @@ ul {
       ul a {
         font-size: 0.8em; } }
   ul a:link, ul a:visited {
-    color: #282828; }
+    font-family: "Metrophobic", sans-serif;
+    color: #58595b;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 0.8em; }
 
 header {
   text-align: left;
@@ -373,31 +373,26 @@ section {
       padding: 30px 0; } }
 
 .blues {
-  background: linear-gradient(rgba(29, 175, 237, 0.19), rgba(29, 175, 237, 0.1)), url("../../img/photos/man-sunburst.jpg") no-repeat fixed -10px -50px; }
+  background: linear-gradient(rgba(29, 175, 237, 0.19), rgba(29, 175, 237, 0.1)), url("../../img/photos/man-sunburst.jpg") no-repeat fixed -10px -500px; }
 
 .push-down-compensation {
-  margin-top: 250px; }
-  @media screen and (max-width: 500px) {
+  margin-top: 100px; }
+  @media screen and (max-width: 850px) {
     .push-down-compensation {
-      margin-top: 220px; } }
+      margin-top: 120px; } }
 
 .blues__title {
-  margin-bottom: 20px; }
-  @media screen and (max-width: 768px) {
+  margin-bottom: 0px;
+  letter-spacing: 1.5px; }
+  @media screen and (max-width: 850px) {
     .blues__title {
       margin-bottom: 5px; } }
 
-span.blues__title--blues {
-  margin-left: -5px; }
-
 .blues__txt {
-  color: #58595b; }
+  font-weight: 400; }
 
 .blues__txt-offkey {
   color: #e70068; }
-
-.blues__txt-one {
-  color: #58595b; }
 
 h3.off-key__title {
   margin: 10px 0; }
@@ -414,19 +409,26 @@ p.off-key__txt--what, .off-key__txt--22 {
     p.off-key__txt--what, .off-key__txt--22 {
       margin-bottom: 5px; } }
 
+.solution {
+  background-color: #5e5a53; }
+  .solution p, .solution a:link, .solution a:visited {
+    color: white; }
+
+.solution__grp {
+  color: white; }
+
 h3.solution__title {
-  margin-bottom: 20px; }
-  @media screen and (max-width: 768px) {
+  margin-bottom: 20px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  color: white; }
+  @media screen and (max-width: 850px) {
     h3.solution__title {
-      margin-top: -50px; } }
-
-span.solution__title--bold {
-  color: #e70068; }
-
-.solution__txt {
-  color: #58595b; }
+      line-height: 1.6; } }
 
 p.solution__txt--help {
+  letter-spacing: 1.1px;
+  font-weight: 900;
   margin-top: 20px; }
   @media screen and (max-width: 768px) {
     p.solution__txt--help {
@@ -434,6 +436,9 @@ p.solution__txt--help {
 
 p.solution__txt--cta {
   margin-top: 10px; }
+
+.solution__txt--link {
+  color: white; }
 
 .playbook-grp {
   text-align: center; }
@@ -506,24 +511,12 @@ p.overwhelmed__txt--list:before {
     .downloader-get-in-touch__txt {
       margin-bottom: 5px; } }
 
-#size {
-  position: absolute;
-  top: 0;
-  right: 3px;
-  font-family: "Merriweather", serif;
-  font-size: 1.3px;
-  font-size: 1.3rem;
-  font-weight: 100;
-  line-height: 1;
-  line-height: 1;
-  color: #333333; }
-
 html {
   font-size: 62.5%; }
 
 body {
   font-size: 16px;
-  font-family: "Roboto", sans-serif, sans-serif;
+  font-family: "Source Sans Pro", sans-serif, sans-serif;
   line-height: 1.625;
   margin: 0;
   padding: 0;
@@ -545,7 +538,6 @@ h2, h3 {
   font-family: "Roboto", sans-serif;
   font-weight: 900;
   font-size: 2.25em;
-  text-transform: uppercase;
   line-height: 1;
   color: #58595b; }
   @media screen and (max-width: 850px) {
@@ -557,11 +549,21 @@ h3 {
   font-size: 1.95em; }
   @media screen and (max-width: 850px) {
     h3 {
-      line-height: 1.2;
       font-size: 1.55em; } }
 
 a:link, a:visited, .bold {
-  color: #e70068; }
+  color: #e70068;
+  font-weight: 300; }
+
+p {
+  color: #58595b;
+  font-size: 1.375em;
+  font-weight: 300; }
+
+@media screen and (max-width: 850px) {
+  .center-on-mobile {
+    width: 100%;
+    text-align: center; } }
 
 .card-download-playbook {
   text-align: center; }
