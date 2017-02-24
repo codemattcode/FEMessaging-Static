@@ -1,4 +1,4 @@
-.messaging-grp
+.messaging__grp
   text-align: center
 .icon
   padding: 30px
@@ -12,10 +12,14 @@
   +break(500px)
     width: auto
 h2.messaging__title
-  // font-size: 1.8em
-  // text-transform: uppercase 
-  // font-weight: 100
-h3.messaging-grp
-  // font-size: 1em
-.messaging-txt
+  letter-spacing: 1.2px
+  +break($breaker)
+    margin-top: 10px
+h3.messaging__grp
+  margin-bottom: 15px
+  +break($breaker)
+    margin-bottom: 5px
+.messaging__txt
   color: $fem-title-grey
+.messaging__txt--link
+  color: $fem-emphasis

@@ -341,17 +341,15 @@ ul {
     padding-right: 15px; }
     ul lilast-of-type {
       padding-right: 0; }
-  ul a {
-    font-size: inherit; }
-    @media screen and (max-width: 850px) {
-      ul a {
-        font-size: 0.8em; } }
   ul a:link, ul a:visited {
     font-family: "Metrophobic", sans-serif;
     color: #58595b;
     text-transform: uppercase;
     font-weight: 400;
     font-size: 0.8em; }
+    @media screen and (max-width: 850px) {
+      ul a:link, ul a:visited {
+        font-size: 0.7em; } }
 
 header {
   text-align: left;
@@ -373,13 +371,16 @@ section {
       padding: 30px 0; } }
 
 .blues {
-  background: linear-gradient(rgba(29, 175, 237, 0.25), rgba(29, 175, 237, 0.2)), url("../../img/photos/man-sunburst.jpg") no-repeat fixed -10px -500px; }
+  background: linear-gradient(rgba(231, 0, 104, 0.1), rgba(231, 0, 104, 0.5)), url("../../img/photos/man-sunburst.jpg") no-repeat fixed -10px -500px; }
 
 .push-down-compensation {
   margin-top: 100px; }
   @media screen and (max-width: 850px) {
     .push-down-compensation {
       margin-top: 120px; } }
+
+.blues-grp {
+  color: white; }
 
 .blues__title {
   margin-bottom: 0px;
@@ -390,9 +391,6 @@ section {
 
 .blues__txt {
   font-weight: 400; }
-
-.blues__txt-offkey {
-  color: #e70068; }
 
 h3.off-key__title {
   margin: 10px 0; }
@@ -413,6 +411,8 @@ p.off-key__txt--what, .off-key__txt--22 {
   background-color: #5e5a53; }
   .solution p, .solution a:link, .solution a:visited {
     color: white; }
+  .solution img {
+    border-radius: 50%; }
 
 .solution__grp {
   color: white; }
@@ -457,18 +457,34 @@ p.solution__txt--cta {
 
 .icon {
   padding: 30px; }
+  @media screen and (max-width: 850px) {
+    .icon {
+      margin-bottom: 10px; } }
   .icon img {
     border-radius: 40px;
     border: 10px solid #f8f7f5; }
 
+h3.playbook-grp {
+  margin-bottom: 20px; }
+
+h2.playbook__title {
+  letter-spacing: 1.2px; }
+  @media screen and (max-width: 850px) {
+    h2.playbook__title {
+      line-height: 1.5; } }
+
 span.playbook__title--bold {
   color: #e70068; }
 
+.overwhelmed {
+  background-color: #f1f2f2; }
+
 h3.overwhelmed__title {
+  letter-spacing: 1.2px;
   margin-bottom: 20px; }
   @media screen and (max-width: 768px) {
     h3.overwhelmed__title {
-      margin-bottom: 5px; } }
+      margin: 10px 0 25px 0; } }
 
 span.overwhelmed__title--need {
   margin-left: -5px; }
@@ -477,11 +493,7 @@ span.overwhelmed__title--need {
   color: #58595b; }
 
 p.overwhelmed__txt--list {
-  margin-top: 20px;
-  margin-left: 20px; }
-  @media screen and (max-width: 768px) {
-    p.overwhelmed__txt--list {
-      margin-left: 5px; } }
+  margin-top: 20px; }
 
 p.overwhelmed__txt--list:before {
   content: "";
@@ -491,7 +503,7 @@ p.overwhelmed__txt--list:before {
   margin-right: 10px;
   background: #333333; }
 
-.messaging-grp {
+.messaging__grp {
   text-align: center; }
 
 .icon {
@@ -508,17 +520,47 @@ p.overwhelmed__txt--list:before {
     .fixed-width-430 {
       width: auto; } }
 
-.messaging-txt {
+h2.messaging__title {
+  letter-spacing: 1.2px; }
+  @media screen and (max-width: 850px) {
+    h2.messaging__title {
+      margin-top: 10px; } }
+
+h3.messaging__grp {
+  margin-bottom: 15px; }
+  @media screen and (max-width: 850px) {
+    h3.messaging__grp {
+      margin-bottom: 5px; } }
+
+.messaging__txt {
   color: #58595b; }
 
+.messaging__txt--link {
+  color: #e70068; }
+
+.downloader {
+  background-color: #ff81ba; }
+  .downloader img {
+    border-radius: 50%; }
+
+.downloader-txt--link {
+  margin-top: 65px;
+  color: white; }
+  @media screen and (max-width: 850px) {
+    .downloader-txt--link {
+      margin-top: 0; } }
+
 .downloader-txt {
-  color: #58595b; }
+  color: white; }
 
 .downloader-get-in-touch__txt {
   margin-bottom: 20px; }
   @media screen and (max-width: 768px) {
     .downloader-get-in-touch__txt {
       margin-bottom: 5px; } }
+
+.padder {
+  margin: 15px 0; }
 
 html {
   font-size: 62.5%; }
@@ -561,8 +603,10 @@ h3 {
       font-size: 1.55em; } }
 
 a:link, a:visited, .bold {
-  color: #e70068;
   font-weight: 300; }
+
+.bold {
+  color: #e70068; }
 
 p {
   color: #58595b;
