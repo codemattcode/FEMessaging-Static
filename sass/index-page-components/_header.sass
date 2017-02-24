@@ -1,27 +1,11 @@
 header
-  width: 400px
-  +break(768px)
-    width: auto
-  margin: 0 auto
-  text-align: center
-img.brand-logo__img
-  max-width: 100px
-  margin-top: -30px
-  +break(768px)
-    margin-top: -20px
-img.brand-logo__img--hide
-  display: none
-img.scroll
-  margin-bottom: 30px
-h1.brand-name__title--scroll-up
-  margin-top: -50px
-  +break(768px)
-    margin-top: -30px
-h1.brand-name__title--scroll-down
-  margin-top: 0px
-
-p.brand-strapline__txt
-  line-height: .8
-  color: $fem-purple
-.turn-purple
-  color: $fem-purple
+  text-align: left
+  position: fixed
+  width: 100%
+  z-index: 10
+  background-color: $white 
+  margin: 0px auto
+.brand-name__title
+  +break($breaker)
+    text-align: center
+    margin-top: 10px

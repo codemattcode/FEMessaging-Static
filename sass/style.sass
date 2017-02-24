@@ -1,6 +1,6 @@
 @import 'style-baselines'
 @import 'index-page-partials'
-
+$wrap: 850px
 // LET THERE BE JUSTICE
 #size
   position: absolute
@@ -33,13 +33,13 @@ body
   background-color: $reset-body-bg  
 // LET THERE BE LIGHT
 .wrapper
-  max-width: 800px
+  max-width: $wrap
   width: 90%
 h1
   font-family: $hand
   font-size: 2em
   color: $fem-title-grey
-  +break(768px)
+  +break($breaker)
     line-height: 1
 h2, h3
   font-family: $robo
@@ -48,19 +48,19 @@ h2, h3
   text-transform: uppercase
   line-height: 1
   color: $fem-title-grey
-  +break(768px)
+  +break($breaker)
     line-height: 1.2
     font-size: 1.8em
 h3
   font-size: 1.95em
-  +break(768px)
+  +break($breaker)
     line-height: 1.2
     font-size: 1.55em
 a:link, a:visited, .bold
   color: $fem-purple
 .card-download-playbook
   text-align: center
-  +break(768px)
+  +break($breaker)
     margin-top: 20px
 .contact__cta
   font-size: 1.2em 

@@ -107,14 +107,14 @@ html {
   width: 100%; }
 
 /* ******************************************** */
-/* MARGINS ABOVE 768px */
+/* MARGINS ABOVE $breaker */
 .row [class^="col"] {
   float: left;
   margin: 2% 2%;
   min-height: 1px; }
 
-/* MARGINS BELOW 768px */
-@media only screen and (max-width: 768px) {
+/* MARGINS BELOW $breaker */
+@media only screen and (max-width: 850px) {
   .row [class^="col"] {
     margin: 2% 2%; } }
 /* no vertical margin on push 'spacers' */
@@ -200,9 +200,9 @@ html {
   display: none; }
 
 /* ******************************************** */
-/* switch from mobile first to 768px and above */
+/* switch from mobile first to $breaker and above */
 /* ******************************************** */
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 850px) {
   .col-1 {
     width: 4.33%; }
 
@@ -314,22 +314,31 @@ html {
   .hide-sm {
     display: block; } }
 /* ******************************************** */
-/* set maximum wrapper width to 1175px */
+/* set maximum wrapper width to $breaker */
 /* ******************************************** */
-@media only screen and (min-width: 1175px) {
+@media only screen and (min-width: 850px) {
   .wrapper {
     width: 90%;
-    max-width: 1175px; } }
+    max-width: 850px; } }
 nav {
-  position: fixed;
-  width: 100%;
-  z-index: 10;
-  background-color: white;
-  margin: 0px auto;
-  text-align: center; }
+  text-align: right; }
+
+@media screen and (max-width: 850px) {
+  .center-on-mobile {
+    width: 100%;
+    text-align: center; } }
 
 ul {
-  display: inline-block; }
+  display: inline-block;
+  padding-top: 10px; }
+  @media screen and (max-width: 850px) and (min-width: 550px) {
+    ul {
+      margin-top: -10px;
+      padding-top: 0px; } }
+  @media screen and (max-width: 549px) {
+    ul {
+      margin-top: -10px;
+      padding-top: 0px; } }
   ul li {
     float: left;
     text-align: center;
@@ -338,48 +347,24 @@ ul {
       padding-right: 0; }
   ul a {
     font-size: inherit; }
-    @media screen and (max-width: 768px) {
+    @media screen and (max-width: 850px) {
       ul a {
-        font-size: 0.7em; } }
+        font-size: 0.8em; } }
   ul a:link, ul a:visited {
     color: #282828; }
 
 header {
-  width: 400px;
-  margin: 0 auto;
-  text-align: center; }
-  @media screen and (max-width: 768px) {
-    header {
-      width: auto; } }
+  text-align: left;
+  position: fixed;
+  width: 100%;
+  z-index: 10;
+  background-color: white;
+  margin: 0px auto; }
 
-img.brand-logo__img {
-  max-width: 100px;
-  margin-top: -30px; }
-  @media screen and (max-width: 768px) {
-    img.brand-logo__img {
-      margin-top: -20px; } }
-
-img.brand-logo__img--hide {
-  display: none; }
-
-img.scroll {
-  margin-bottom: 30px; }
-
-h1.brand-name__title--scroll-up {
-  margin-top: -50px; }
-  @media screen and (max-width: 768px) {
-    h1.brand-name__title--scroll-up {
-      margin-top: -30px; } }
-
-h1.brand-name__title--scroll-down {
-  margin-top: 0px; }
-
-p.brand-strapline__txt {
-  line-height: 0.8;
-  color: #e70068; }
-
-.turn-purple {
-  color: #e70068; }
+@media screen and (max-width: 850px) {
+  .brand-name__title {
+    text-align: center;
+    margin-top: 10px; } }
 
 section {
   padding: 80px 0; }
@@ -545,14 +530,14 @@ body {
   background-color: #fff; }
 
 .wrapper {
-  max-width: 800px;
+  max-width: 850px;
   width: 90%; }
 
 h1 {
   font-family: "Just Another Hand", cursive;
   font-size: 2em;
   color: #58595b; }
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 850px) {
     h1 {
       line-height: 1; } }
 
@@ -563,14 +548,14 @@ h2, h3 {
   text-transform: uppercase;
   line-height: 1;
   color: #58595b; }
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 850px) {
     h2, h3 {
       line-height: 1.2;
       font-size: 1.8em; } }
 
 h3 {
   font-size: 1.95em; }
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 850px) {
     h3 {
       line-height: 1.2;
       font-size: 1.55em; } }
@@ -580,7 +565,7 @@ a:link, a:visited, .bold {
 
 .card-download-playbook {
   text-align: center; }
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 850px) {
     .card-download-playbook {
       margin-top: 20px; } }
 

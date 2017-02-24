@@ -1,8 +1,8 @@
-// .wrapper (90% <= 1175px)
+// .wrapper (90% <= $breaker)
 //   .row
 //     .col-6 .col-6 (total = 12)
 //     .col-push-4 (horizontal spacing only so requires adding a custom class with vertical padding (to taste))
-//     .hide-sm (remove content below 768px)
+//     .hide-sm (remove content below $breaker)
 
 
 /* ==== GRID SYSTEM ==== */
@@ -22,15 +22,15 @@
 
 /* ******************************************** */
 
-/* MARGINS ABOVE 768px */
+/* MARGINS ABOVE $breaker */
 .row [class^="col"] 
   float: left
   margin: 2% 2%
   min-height: 1px
 
 
-/* MARGINS BELOW 768px */
-@media only screen and (max-width: 768px) 
+/* MARGINS BELOW $breaker */
+@media only screen and (max-width: $breaker) 
   .row [class^="col"] 
     margin: 2% 2%  
   
@@ -138,10 +138,10 @@
 
 
 /* ******************************************** */
-/* switch from mobile first to 768px and above */
+/* switch from mobile first to $breaker and above */
 /* ******************************************** */
 
-@media only screen and (min-width: 768px)  
+@media only screen and (min-width: $breaker)  
   .col-1 
     width: 4.33%
   
@@ -268,12 +268,12 @@
 
 
 /* ******************************************** */
-/* set maximum wrapper width to 1175px */
+/* set maximum wrapper width to $breaker */
 /* ******************************************** */
 
-@media only screen and (min-width: 1175px) 
+@media only screen and (min-width: $breaker) 
   .wrapper 
     width: 90%
-    max-width: 1175px
+    max-width: $breaker
   
 

@@ -1,12 +1,18 @@
 nav
-  position: fixed
-  width: 100%
-  z-index: 10
-  background-color: $white 
-  margin: 0px auto
-  text-align: center
+  text-align: right
+.center-on-mobile
+  +break($breaker)
+    width: 100%
+    text-align: center
 ul
   display: inline-block
+  padding-top: 10px
+  +break($breaker, 550px)
+    margin-top: -10px
+    padding-top: 0px
+  +break(549px)
+    margin-top: -10px
+    padding-top: 0px
   li
     float: left
     text-align: center
@@ -15,7 +21,7 @@ ul
       padding-right: 0
   a
     font-size: inherit
-    +break(768px)
-      font-size: .7em
+    +break($breaker)
+      font-size: .8em
   a:link, a:visited
     color: $fem-nav-text-grey
