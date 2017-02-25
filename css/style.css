@@ -350,6 +350,9 @@ ul {
     @media screen and (max-width: 850px) {
       ul a:link, ul a:visited {
         font-size: 0.7em; } }
+    @media screen and (max-width: 320px) {
+      ul a:link, ul a:visited {
+        font-size: 0.5em; } }
 
 header {
   text-align: left;
