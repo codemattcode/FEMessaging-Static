@@ -572,11 +572,11 @@ h2.services {
 h3.services-titles {
   margin-bottom: 20px; }
 
-h2.about {
+h1.about {
   padding-top: 20px;
   color: #e70068; }
   @media screen and (max-width: 850px) {
-    h2.about {
+    h1.about {
       padding-top: 80px; } }
 
 html {
