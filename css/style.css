@@ -371,7 +371,7 @@ section {
       padding: 30px 0; } }
 
 .blues {
-  background: linear-gradient(rgba(231, 0, 104, 0.1), rgba(231, 0, 104, 0.5)), url("../../img/photos/man-sunburst.jpg") no-repeat fixed -10px -500px; }
+  background: #e70068; }
 
 .push-down-compensation {
   margin-top: 100px; }
@@ -539,7 +539,7 @@ h3.messaging__grp {
   color: #e70068; }
 
 .downloader {
-  background-color: #ff81ba; }
+  background-color: #e70068; }
   .downloader img {
     border-radius: 50%; }
 
@@ -561,6 +561,23 @@ h3.messaging__grp {
 
 .padder {
   margin: 15px 0; }
+
+h2.services {
+  padding-top: 20px;
+  color: #e70068; }
+  @media screen and (max-width: 850px) {
+    h2.services {
+      padding-top: 80px; } }
+
+h3.services-titles {
+  margin-bottom: 20px; }
+
+h2.about {
+  padding-top: 20px;
+  color: #e70068; }
+  @media screen and (max-width: 850px) {
+    h2.about {
+      padding-top: 80px; } }
 
 html {
   font-size: 62.5%; }
