@@ -627,6 +627,12 @@ h2.portfolio {
     h2.portfolio {
       padding-top: 80px; } }
 
+.portfolio-cta-button {
+  margin-top: 20px; }
+  @media screen and (max-width: 850px) {
+    .portfolio-cta-button {
+      padding-bottom: 10px; } }
+
 html {
   font-size: 62.5%; }
 
