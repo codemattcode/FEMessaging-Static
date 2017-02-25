@@ -2,6 +2,7 @@
 @import 'index-page-partials'
 @import 'services'
 @import 'about'
+@import 'portfolio'
 $wrap: 850px
 // LET THERE BE JUSTICE
 $reset-font:          $source, sans-serif
@@ -63,6 +64,9 @@ p
   +break($breaker)
     width: 100%
     text-align: center
+.center
+  width: 100%
+  text-align: center
 // components 
 .card-download-playbook
   text-align: center
@@ -81,3 +85,6 @@ p
   +break($breaker)
     margin: 0 auto
     margin-top: 30px
+.cta-pink
+  border: 1px solid $fem-emphasis
+  color: $fem-emphasis

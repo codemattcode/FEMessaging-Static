@@ -572,12 +572,66 @@ h2.services {
 h3.services-titles {
   margin-bottom: 20px; }
 
+@media screen and (max-width: 850px) {
+  .fix-spacing {
+    margin-top: -20px; } }
+
 h1.about {
   padding-top: 20px;
-  color: #e70068; }
+  color: #e70068;
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-size: 2.25em;
+  line-height: 1; }
   @media screen and (max-width: 850px) {
     h1.about {
-      padding-top: 80px; } }
+      padding-top: 80px;
+      line-height: 1.2;
+      font-size: 1.8em; } }
+
+h2.about-title {
+  margin-bottom: 10px; }
+
+h3.about-quote {
+  margin-bottom: 10px; }
+
+p.about-quote-name {
+  margin-bottom: 20px; }
+
+img.about-img {
+  height: 250px; }
+  @media screen and (max-width: 850px) {
+    img.about-img {
+      margin-bottom: 20px; } }
+
+h4.about-description {
+  margin-bottom: 20px;
+  color: #e70068;
+  font-weight: 900;
+  font-size: 1.5em;
+  line-height: 1; }
+  @media screen and (max-width: 850px) {
+    h4.about-description {
+      margin-bottom: 20px; } }
+
+.about-cta-button {
+  margin-top: -20px; }
+
+p.formula {
+  font-weight: 900; }
+
+h1.portfolio {
+  padding-top: 20px;
+  color: #e70068;
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-size: 2.25em;
+  line-height: 1; }
+  @media screen and (max-width: 850px) {
+    h1.portfolio {
+      padding-top: 80px;
+      line-height: 1.2;
+      font-size: 1.8em; } }
 
 html {
   font-size: 62.5%; }
@@ -635,6 +689,10 @@ p {
     width: 100%;
     text-align: center; } }
 
+.center {
+  width: 100%;
+  text-align: center; }
+
 .card-download-playbook {
   text-align: center; }
   @media screen and (max-width: 850px) {
@@ -655,3 +713,7 @@ p {
     .contact__cta {
       margin: 0 auto;
       margin-top: 30px; } }
+
+.cta-pink {
+  border: 1px solid #e70068;
+  color: #e70068; }
