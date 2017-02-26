@@ -6,12 +6,23 @@
     margin-top: 100px
 .blues-grp
   color: $white
-.blues__title
+.blues__title 
   margin-bottom: 0px
   letter-spacing: 1.5px
+  +break(900px, 500px)
+    margin-top: 20px
   +break($breaker)
     margin-bottom: 5px
 .blues__txt 
   font-weight: 400
+  font-size: 1.4em
 // .blues__txt-offkey
 //   color: $white
+.safe
+  +break($breaker)
+    margin-top: 15px
+img.safe-icon
+  border-radius: 50%
+  display: inline-block
+  text-align: center
+
