@@ -590,6 +590,8 @@ section.cookie {
 
 section.contact {
   background-color: #e70068; }
+  section.contact p {
+    color: white; }
 
 @media screen and (max-width: 850px) {
   .fix-spacing {
@@ -623,7 +625,7 @@ h4.about4 {
     h4.about4 {
       margin-bottom: 20px; } }
 
-h4.about-description {
+h4.started-description {
   color: white; }
 
 h4.cookie-description {
