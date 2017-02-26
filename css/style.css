@@ -582,6 +582,8 @@ section.shine {
 
 section.started {
   background-color: #5e5a53; }
+  section.started p {
+    color: white; }
 
 section.cookie {
   background-color: #f1f2f2; }
@@ -623,7 +625,7 @@ img.about-img {
 
 h4.about-description {
   margin-bottom: 20px;
-  color: #e70068;
+  color: white;
   font-weight: 900;
   font-size: 1.5em;
   line-height: 1; }
