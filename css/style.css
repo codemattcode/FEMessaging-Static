@@ -585,6 +585,10 @@ section.started {
   section.started p {
     color: white; }
 
+img.rina-pic {
+  width: 200px;
+  border-radius: 5px; }
+
 section.cookie {
   background-color: #f1f2f2; }
 
