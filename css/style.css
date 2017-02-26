@@ -577,6 +577,8 @@ h3.services-titles {
 
 section.shine {
   background-color: #e70068; }
+  section.shine p {
+    color: white; }
 
 section.started {
   background-color: #5e5a53; }
@@ -596,7 +598,8 @@ h1.about {
   font-family: "Roboto", sans-serif;
   font-weight: 900;
   font-size: 2.25em;
-  line-height: 1; }
+  line-height: 1;
+  color: white; }
   @media screen and (max-width: 850px) {
     h1.about {
       padding-top: 80px;
