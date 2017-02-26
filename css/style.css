@@ -614,6 +614,21 @@ h2.about-title {
 h3.about-quote {
   margin-bottom: 10px; }
 
+h4.about4 {
+  margin-bottom: 20px;
+  font-weight: 900;
+  font-size: 1.5em;
+  line-height: 1; }
+  @media screen and (max-width: 850px) {
+    h4.about4 {
+      margin-bottom: 20px; } }
+
+h4.about-description {
+  color: white; }
+
+h4.cookie-description {
+  color: #58595b; }
+
 p.about-quote-name {
   margin-bottom: 20px; }
 
@@ -621,26 +636,6 @@ img.about-img {
   height: 250px; }
   @media screen and (max-width: 850px) {
     img.about-img {
-      margin-bottom: 20px; } }
-
-h4.about-description {
-  margin-bottom: 20px;
-  color: white;
-  font-weight: 900;
-  font-size: 1.5em;
-  line-height: 1; }
-  @media screen and (max-width: 850px) {
-    h4.about-description {
-      margin-bottom: 20px; } }
-
-h4.cookie-description {
-  margin-bottom: 20px;
-  color: #58595b;
-  font-weight: 900;
-  font-size: 1.5em;
-  line-height: 1; }
-  @media screen and (max-width: 850px) {
-    h4.cookie-description {
       margin-bottom: 20px; } }
 
 .about-cta-button {
