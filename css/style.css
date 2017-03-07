@@ -399,9 +399,8 @@ section {
   font-weight: 400;
   font-size: 1.4em; }
 
-@media screen and (max-width: 850px) {
-  .safe {
-    margin-top: 15px; } }
+.safe {
+  margin-top: 15px; }
 
 img.safe-icon {
   border-radius: 50%;
